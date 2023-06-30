@@ -1,0 +1,12 @@
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\bin\Debug\net7.0\WeatherService.Core.deps.json
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\bin\Debug\net7.0\WeatherService.Core.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\bin\Debug\net7.0\WeatherService.Core.pdb
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\WeatherService.Core.csproj.AssemblyReference.cache
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\WeatherService.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\WeatherService.Core.AssemblyInfoInputs.cache
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\WeatherService.Core.AssemblyInfo.cs
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\WeatherService.Core.csproj.CoreCompileInputs.cache
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\WeatherService.Core.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\refint\WeatherService.Core.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\WeatherService.Core.pdb
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Core\obj\Debug\net7.0\ref\WeatherService.Core.dll
