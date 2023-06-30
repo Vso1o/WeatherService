@@ -17,11 +17,13 @@ namespace WeatherService.Business.Services
             _httpClient = httpClient;
         }
 
-        public async Task<WeatherDto> GetCurrentWeather(string cityName)
+        public async Task<WeatherCurrentDto> GetCurrentWeather(string cityName)
         {
             string apiUrl = $"{_baseUri}/weather?q={Uri.EscapeDataString(cityName)}&appid={_apiKey}&units=metric";
 
             HttpResponseMessage response = await _httpClient.GetAsync(apiUrl);
+
+            var res = response.Content.ToString();
             if (response.IsSuccessStatusCode)
             {
                 var json = await response.Content.ReadAsStringAsync();
@@ -51,9 +53,9 @@ namespace WeatherService.Business.Services
             }
         }
 
-        private WeatherDto ParseCurrentWeather(string json)
+        private WeatherCurrentDto ParseCurrentWeather(string json)
         {
-            WeatherDto weather = JsonConvert.DeserializeObject<WeatherDto>(json);
+            WeatherCurrentDto weather = JsonConvert.DeserializeObject<WeatherCurrentDto>(json);
             return weather;
         }
 

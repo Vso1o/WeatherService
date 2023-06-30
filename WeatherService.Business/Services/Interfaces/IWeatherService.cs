@@ -4,7 +4,7 @@ namespace WeatherService.Business.Services.Interfaces
 {
     public interface IWeatherService
     {
-        Task<WeatherDto> GetCurrentWeather(string cityName);
+        Task<WeatherCurrentDto> GetCurrentWeather(string cityName);
         Task<WeatherForecastDto> GetWeatherForecast(string cityName);
     }
 }

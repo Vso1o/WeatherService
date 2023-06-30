@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "osccYoVrfJkvU7UquKmeY2F2MJCIN/rES9o5fYWVuGSscefLUukyzAZT5YBhtocnM/f3ddd4FjYK/aby81ViSA==",
+  "dgSpecHash": "ocAHa3wJNTQTtYSyaG/nXscrp3BwFOsXvNb7dCy8W/SjwbAIIDpCWghXHQ7PPXUBuLfzsC0hsLVoYmSk+9wMJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vsolo\\Desktop\\WeatherApi\\WeatherService.Core\\WeatherService.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Vsolo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

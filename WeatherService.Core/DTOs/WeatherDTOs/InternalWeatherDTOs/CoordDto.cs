@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WeatherService.Core.Entities.WeatherEntities
+namespace WeatherService.Core.DTOs.WeatherDTOs.InternalWeatherDTOs
 {
-    public class Coord
+    public class CoordDto
     {
         public double Lon { get; set; }
         public double Lat { get; set; }
