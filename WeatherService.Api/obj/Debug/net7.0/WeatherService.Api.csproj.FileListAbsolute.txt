@@ -36,3 +36,13 @@ C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\obj\Debug\net7.0\refint\Wea
 C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\obj\Debug\net7.0\WeatherService.Api.pdb
 C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\obj\Debug\net7.0\WeatherService.Api.genruntimeconfig.cache
 C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\obj\Debug\net7.0\ref\WeatherService.Api.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll

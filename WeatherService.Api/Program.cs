@@ -1,12 +1,21 @@
+using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
+using WeatherService.Api.Middlewares;
 using WeatherService.Business.Services.Interfaces;
+using WeatherService.Business.Utils;
+using WeatherService.Business.Utils.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.AddHttpClient<IWeatherService, WeatherService.Business.Services.WeatherService>();
+
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<IHttpUtil, HttpUtil>();
+builder.Services.AddScoped<IWeatherService, WeatherService.Business.Services.WeatherService>();
+
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -14,6 +23,8 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+
+app.UseMiddleware<ExceptionHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

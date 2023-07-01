@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WeatherService.Business.Exceptions;
+using WeatherService.Business.Exceptions.Abstractions;
 using WeatherService.Business.Services.Interfaces;
 
 namespace WeatherService.Api.Controllers
@@ -18,29 +19,15 @@ namespace WeatherService.Api.Controllers
         [HttpGet("current")]
         public async Task<IActionResult> GetCurrentWeather(string cityName)
         {
-            try
-            {
-                var weather = await _weatherService.GetCurrentWeather(cityName);
-                return Ok(weather);
-            }
-            catch (WeatherServiceException ex)
-            {
-                return StatusCode((int)ex.StatusCode, ex.Message);
-            }
+            var weather = await _weatherService.GetCurrentWeather(cityName);
+            return Ok(weather);
         }
 
         [HttpGet("forecast")]
         public async Task<IActionResult> GetWeatherForecast(string cityName)
         {
-            try
-            {
-                var forecast = await _weatherService.GetWeatherForecast(cityName);
-                return Ok(forecast);
-            }
-            catch (WeatherServiceException ex)
-            {
-                return StatusCode((int)ex.StatusCode, ex.Message);
-            }
+            var forecast = await _weatherService.GetWeatherForecast(cityName);
+            return Ok(forecast);
         }
     }
 }
