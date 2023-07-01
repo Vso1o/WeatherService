@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WeatherService.Api</name>
+    </assembly>
+    <members>
+        <member name="M:WeatherService.Api.Controllers.WeatherController.GetCurrentWeather(System.String)">
+            <summary>
+            Get weather in specific city
+            </summary>
+            <param name="cityName">Name of city</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherService.Api.Controllers.WeatherController.GetCurrentFullWeather(System.String)">
+            <summary>
+            Get weather in specific city, returns full results
+            </summary>
+            <param name="cityName">Name of city</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherService.Api.Controllers.WeatherController.GetWeatherForecast(System.String)">
+            <summary>
+            Get forecast for specific city
+            </summary>
+            <param name="cityName">Name of city</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeatherService.Api.Controllers.WeatherController.GetWeatherFullForecast(System.String)">
+            <summary>
+            Get forecast for specific city, returns full results
+            </summary>
+            <param name="cityName">Name of city</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

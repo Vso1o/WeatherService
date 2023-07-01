@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S9SbcdfmG4n9/QOF210qcH4I25lhzHM9Yo/S+q7751lB9kezTMlVfFd73LqE1wsWxA43nfRd/KLM5WHRIKizjA==",
+  "dgSpecHash": "C5WD6pQOs55SLcaQp+Dnl7/BA/q/LMsy8ltFQjRbz1UOIQ6FXuyfLBoYLJduXtoBgqIphBbhsBe3qlWBjGS0ZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vsolo\\Desktop\\WeatherApi\\WeatherService.Api\\WeatherService.Api.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Vsolo\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "C:\\Users\\Vsolo\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Vsolo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Vsolo\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\Vsolo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Vsolo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\Vsolo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

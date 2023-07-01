@@ -1,4 +1,3 @@
-using Microsoft.Extensions.Configuration;
 using Microsoft.OpenApi.Models;
 using WeatherService.Api.Middlewares;
 using WeatherService.Business.Services.Interfaces;
@@ -20,6 +19,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Weather API", Version = "v1" });
+
+    var filePath = Path.Combine(System.AppContext.BaseDirectory, "swaggerDocumentation.xml");
+
+    c.IncludeXmlComments(filePath);
 });
 
 var app = builder.Build();

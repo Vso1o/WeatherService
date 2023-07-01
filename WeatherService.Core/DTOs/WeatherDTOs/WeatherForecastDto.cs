@@ -2,6 +2,9 @@
 
 namespace WeatherService.Core.DTOs.WeatherDTOs
 {
+    /// <summary>
+    /// Class which represents returned repsonse from external API
+    /// </summary>
     public class WeatherForecastDto
     {
         public string Cod { get; set; }

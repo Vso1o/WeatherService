@@ -46,3 +46,5 @@ C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\runtimes\w
 C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Vsolo\Desktop\WeatherApi\WeatherService.Api\bin\Debug\net7.0\swaggerDocumentation.xml
